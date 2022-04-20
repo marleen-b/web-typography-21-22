@@ -81,3 +81,16 @@ Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vr
 Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
 
 Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+
+
+### Kiezen tussen de twee typografische restricties
+
+Optie 1; Systeemfont plus- en minpunten:
+-	Geen controle over welk lettertype er precies gebruikt wordt.
+-	Alleen normal, bold en italic zijn er mogelijk als font-weight opties
+-	Meer uitdaging in font-grootte, kleur en animatie. 
+
+Optie 2; Brenner plus-en minpunten:
+-	Keuzestress over welke lettertype en variant je gaat gebruiken en voor welke voice of sound. 
+-	De vele lettertypen kunnen beter de sfeer en toon van de video weergeven.
+-	Meer mogelijkheden dan met systeemfonts. 
