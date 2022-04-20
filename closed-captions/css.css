@@ -19,6 +19,13 @@ Feel free to adjust the defaults to your needs.
 }
 .voice1 {
 	font-style: italic;
+	font-weight: 800;
+}
+
+.voice2 {
+	font-weight: bold;
+	color: blue;
+
 }
 
 /* **********************************************
