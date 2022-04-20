@@ -104,7 +104,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	background: black;
+	background: grey;
 }
 
 iframe {
@@ -114,3 +114,4 @@ iframe {
 .sound1 iframe {
 	transform: rotate(1turn);
 }
+
