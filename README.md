@@ -92,5 +92,5 @@ Optie 1; Systeemfont plus- en minpunten:
 
 Optie 2; Brenner plus-en minpunten:
 -	Keuzestress over welke lettertype en variant je gaat gebruiken en voor welke voice of sound. 
--	De vele lettertypen kunnen beter de sfeer en toon van de video weergeven.
+-	De vele lettertypen kunnen de toon of voice beter overbrengen. 
 -	Meer mogelijkheden dan met systeemfonts. 
