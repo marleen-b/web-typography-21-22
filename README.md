@@ -1,4 +1,4 @@
-# Web Typography, 2020/2021
+# Web Typography, 2020/2021, opdrachtomschrijving
 
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
 
@@ -41,6 +41,19 @@ Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfo
 
 Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
 
+### 2 typografische restricties; mijn keuze.
+
+Optie 1; Systeemfont plus- en minpunten:
+-	Geen controle over welk lettertype er precies gebruikt wordt.
+-	Alleen normal, bold en italic zijn er mogelijk als font-weight opties
+-	Meer uitdaging in font-grootte, kleur en animatie. 
+
+Optie 2; Brenner plus-en minpunten:
+-	Keuzestress over welke lettertype en variant je gaat gebruiken en voor welke voice of sound. 
+-	De vele lettertypen kunnen de toon of voice beter overbrengen. 
+-	Meer mogelijkheden dan met systeemfonts. 
+
+
 ## Het fragment
 
 Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
@@ -63,34 +76,3 @@ De timimg van de captions kan je aanpassen in [closed-captions/captions.js](clos
 Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
 
 *let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
-
-
-### Kiezen tussen de twee typografische restricties
-
-Optie 1; Systeemfont plus- en minpunten:
--	Geen controle over welk lettertype er precies gebruikt wordt.
--	Alleen normal, bold en italic zijn er mogelijk als font-weight opties
--	Meer uitdaging in font-grootte, kleur en animatie. 
-
-Optie 2; Brenner plus-en minpunten:
--	Keuzestress over welke lettertype en variant je gaat gebruiken en voor welke voice of sound. 
--	De vele lettertypen kunnen de toon of voice beter overbrengen. 
--	Meer mogelijkheden dan met systeemfonts. 
