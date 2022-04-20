@@ -101,6 +101,10 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
+/* Zodra de 3e paragraaf aangaat dan veranderd bijv. de background)*/
+.p3.on{
+background-color: aqua;
+}
 
 /* **********************************************
 Sounds.

@@ -56,7 +56,7 @@ Met JavaScript worden er een paar dingen extra gedaan:
 
 ### Tijdens het afspelen
 
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
+Tijdens het afspelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
 
 De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
 
