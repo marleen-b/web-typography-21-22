@@ -128,7 +128,7 @@ iframe {
 }
  /* p3: And blood-black nothingness began to spin */
 .p3.on span{
-	background-color: purple;
+	background-color: peru;
 }
 
  /* p21: What's it like to hold the hand of someone you love? */
@@ -207,6 +207,12 @@ Sounds.
 	100% {background-image: none
 	}
 
+}
+
+.sound1 iframe {
+	box-shadow: 10px 10px 50px plum;
+	;
+    transition: box-shadow 2s 1s ;
 }
 
 

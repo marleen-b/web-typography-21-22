@@ -68,3 +68,16 @@ De timimg van de captions kan je aanpassen in [closed-captions/captions.js](clos
 Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
 
 *let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
+
+
+## CSS styling keuzes
+
+Toelichting op gemaakte keuzes
+
+- Waarom heb je gekozen voor italic/bold/ 20px voor bij voice1?
+- Waarom wordt de background red op precies 13 seconden. 
+
+- Vanaf 9 seconden hoor je een alarm geluid. Het deed mij heel erg denken aan een rood alarm zwaailicht, daarom heb gekozen voor een rode achtergrondkleur
+
+
+
