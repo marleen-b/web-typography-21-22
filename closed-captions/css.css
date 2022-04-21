@@ -55,6 +55,7 @@ iframe {
 	color: yellow;
 	font-size: 16px;
 	font-weight: 900;
+	text-transform: capitalize;
 	letter-spacing: -2px;
 
 }
@@ -192,11 +193,22 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background turned gradient */
-.sound1 {
-	background-image: radial-gradient(rgba(251,5,8,1) 30%, rgba(164,5,8,1) 70%);
+/* Gebruik keyframes om de background tijdelijk te veranderen van zwart naar rood*/
+.sound1{
+	animation-name: alarm;
+	animation-duration: 1s;
 }
-.sound2{
-	background-color: whitesmoke;
+
+@keyframes alarm{
+	0% {
+		background-image: radial-gradient(rgba(251,5,8,1) 30%, rgba(164,5,8,1) 70%)
+	}
+	99% {
+		background-image: radial-gradient(rgba(251,5,8,1) 30%, rgba(164,5,8,1) 70%)
+	}
+	100% {background-image: none
+	}
+
 }
 
 .p3.on span{

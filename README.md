@@ -8,55 +8,29 @@ Dat kan visueel sterker.
 
 En dat gaan jullie doen.
 
-## Leerdoelen
+## Typografische restricties; mijn keuze.
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+Voor de opdracht moest ik één van de twee opties kiezen en onderbouwen. Voor de typografische restricties had ik de keuze uit systeemfont of Brenner.
 
-## Oplevering
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
-
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
-
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
-
-## Typografische restricties
-
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
-
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
-
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-### 2 typografische restricties; mijn keuze.
-
-Optie 1; Systeemfont plus- en minpunten:
+### Optie 1; Systeemfont plus- en minpunten:
+-   Het systeem bepaald het font.
 -	Geen controle over welk lettertype er precies gebruikt wordt.
 -	Alleen normal, bold en italic zijn er mogelijk als font-weight opties
--	Meer uitdaging in font-grootte, kleur en animatie. 
+-	Meer uitdaging in het gebruik font-size, text-decoration, color, letter-spacing, word-spacing, text-shadow en animatie. 
 
-Optie 2; Brenner plus-en minpunten:
+### Optie 2; Brenner plus-en minpunten:
 -	Keuzestress over welke lettertype en variant je gaat gebruiken en voor welke voice of sound. 
 -	De vele lettertypen kunnen de toon of voice beter overbrengen. 
 -	Meer mogelijkheden dan met systeemfonts. 
+-   Een uitgebreid keus uit een font familie. Zoals sans-serif, serif, bold, display en script.
+-  
+
+Ik ben uiteindelijk gegaan voor het systeemfont. Ik kan namelijk soms moeilijk de knoop doorhaken, waardoor het heel lastig zou worden om een keuze te maken tussen alle font mogelijkheden. 
 
 
-## Het fragment
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+
 
 ### De captions
 
