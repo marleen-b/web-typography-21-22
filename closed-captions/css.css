@@ -49,13 +49,17 @@ iframe {
 .voice2 {
 	font-weight: 400;
 	color: blue;
-	font-size: 30px;
+	font-size: 20px;
+	font-style: normal;
+	text-transform: lowercase;
+	letter-spacing: 1px;
 }
 .voice3 {
 	color: yellow;
 	font-size: 16px;
+	font-style: italic;
 	font-weight: 900;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	letter-spacing: -2px;
 
 }
@@ -70,15 +74,6 @@ iframe {
 	color:green ;
 	font-weight: 900;
 }
-
-/* **********************************************
-The first paragraph, with extended timing for 
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
-********************************************** */
 
 /* stylen van woorden en/of paragrafen */
 
@@ -131,6 +126,11 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 3s
 }
+ /* p3: And blood-black nothingness began to spin */
+.p3.on span{
+	background-color: purple;
+}
+
  /* p21: What's it like to hold the hand of someone you love? */
 .p21 span {
 	opacity: 0;
@@ -182,8 +182,6 @@ You probably want to change the styling.
 	transition: 0s .9s
 }
 
-/*p1 Yes, sir*/
-
 
 /* **********************************************
 Sounds.
@@ -211,9 +209,7 @@ Sounds.
 
 }
 
-.p3.on span{
-	background-color: purple;
-}
+
 
 
 
