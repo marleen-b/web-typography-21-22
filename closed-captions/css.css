@@ -36,6 +36,7 @@ body {
 iframe {
 	grid-column-start: 2;
 	grid-row-start: 2;
+	overflow: hidden;
 }
 
 /* stylen van tekst */
@@ -44,18 +45,19 @@ iframe {
 	font-weight: bold;
 	color: violet;
 	font-size: 20px;
+	letter-spacing: -1px;
 }
 
 .voice2 {
 	font-weight: 400;
-	color: blue;
+	color: white;
 	font-size: 20px;
 	font-style: normal;
 	text-transform: lowercase;
 	letter-spacing: 1px;
 }
 .voice3 {
-	color: yellow;
+	color: red;
 	font-size: 16px;
 	font-style: italic;
 	font-weight: 900;
@@ -126,10 +128,6 @@ iframe {
 	opacity: 1;
 	transition: 0s 3s
 }
- /* p3: And blood-black nothingness began to spin */
-.p3.on span{
-	background-color: peru;
-}
 
  /* p21: What's it like to hold the hand of someone you love? */
 .p21 span {
@@ -192,6 +190,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background turned gradient */
 /* Gebruik keyframes om de background tijdelijk te veranderen van zwart naar rood*/
+
 .sound1{
 	animation-name: alarm;
 	animation-duration: 1s;
@@ -210,11 +209,23 @@ Sounds.
 }
 
 .sound1 iframe {
-	box-shadow: 10px 10px 50px plum;
-	;
+	box-shadow: 10px 10px 50px whitesmoke;
     transition: box-shadow 2s 1s ;
 }
 
+/* Code voor yellow warning tape 
+Bron code: https://codepen.io/pigparlor/pen/wvMBPvO */ 
+.sound9 iframe {
+	padding: 2em;
+	background: repeating-linear-gradient(
+		-45deg,
+		#FFDE17,
+		#FFDE17 15px,
+		#202020 15px,
+		#202020 30px	
+	);
+
+}
 
 
 

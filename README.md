@@ -35,8 +35,6 @@ Wat we horen moet je vormgeven en niet wat je ziet.
 In de html zijn de captions verdeeld in classes zoals voice1 en voice2. Elk stukje tekst wordt door een bepaalde voice/stem gezegd.  
 Wat mij opviel is dat de classes voor de tweede scene(is vanaf 1:27 in de video) nog ontbraken. Als je goed luister merk je dat elke voice zijn eigen unieke eigenschappen heeft. Hieronder heb ik voor mijzelf dit kort op een rijtje gezet. Ook een aantal andere zaken die mij opvielen staan hieronder beschreven.
 
-### Voice 1:
-
 ### Voice 2: 
 Deze voice klinkt erg eentonig, vaak weinig emotie. Klinkt wel als een menselijke stem en niet robotachtig. 
 Maar de stem klinkt diep en eentonig ook door de vele herhalingen van zinnen. 
@@ -49,6 +47,8 @@ Bijna binnenmonds iemand van zich afbijten klinkt diep maar wel heel vlot gespro
 Ongeveer vanaf 34 seconden in de video hoor je een aantal keer "cells". Wat mij opvalt is dat dit woord een aantal keer herhaald wordt.
 De eerste keer dat cells gezegd wordt het heel snel gezegd(> letter-spacing -2px). Daarna hoor je het voor de 2e keer. Wat een herhaling is van de eerste keer maar het klinkt een stukje langzamer.(> letter-spacing 5px) 
 
+### Voice 5: 
+In de tweede scene worden er naar mijn mening andere stemmem gebruikt.Zo wordt voice 2 komt wel weer terug maar de andere stem klinkt heel anders. Daarom heb ik ervoor gekozen om dit voice5 te noemen.
 
 
 ## De captions
