@@ -34,12 +34,14 @@ body {
 }
 
 iframe {
+	transition: 1s;
 	grid-column-start: 2;
 	grid-row-start: 2;
-	overflow: hidden;
 }
+	/*clip-path: inset(4.8em 0)*/
+	/*clip-path: inset(76px 0px 71px 0px); om de zwarte balken in de video weg te halen alleen zie je dan de effecten niet */
 
-/* stylen van tekst */
+	/* stylen van tekst */
 .voice1 {
 	font-style: italic;
 	font-weight: bold;
