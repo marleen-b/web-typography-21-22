@@ -11,7 +11,8 @@ sounds = [
 	31, //sound 7
 	32, //sound 8
 	34, //sound 9
-	86 //sound 10
+	75, //sound 10
+	86 //sound 11
 ];
 
 // Als je een nieuwe sound toevoegd opletten dat de volgorde veranderd dus sound 1 wordt misschien sound 2, pas dit ook aan in de css
