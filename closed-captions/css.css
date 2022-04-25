@@ -242,6 +242,28 @@ animation: shake 1s;
 
 }
 */
+.sound2 {
+	animation-name: alarmV2;
+	animation-duration: 1s;
+}
+@keyframes alarmV2 {
+	25% {
+		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(196,0,2,1) 35%, rgba(0,0,10,1) 80%, rgba(4,0,133,1) 100%);
+	}
+	50% {
+		background: linear-gradient(90deg, rgba(196,0,2,1) 0%, rgba(0,0,0,1) 35%, rgba(4,0,133,1) 80%, rgba(0,0,10,1) 100%);
+	}
+	75%{
+		background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(4,0,133,1) 35%, rgba(0,0,10,1) 80%, rgba(196,0,2,1) 100%);
+	}
+	90%{
+		background: linear-gradient(90deg, rgba(4,0,133,1) 0%, rgba(0,0,0,1) 35%, rgba(196,0,2,1) 80%, rgba(0,0,10,1) 100%);
+	}
+	100%{
+		background: black;
+	}
+	
+}
 
 .sound4 iframe {
 	animation-name: warning;
