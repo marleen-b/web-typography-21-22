@@ -229,14 +229,7 @@ animation: shake 1s;
 	}
 
 }
-
-.sound5 iframe {
-	box-shadow: 10px 10px 50px whitesmoke;
-    transition: box-shadow 1s 1s ;
-}
-
-/* Code voor yellow warning tape 
-Bron code: https://codepen.io/pigparlor/pen/wvMBPvO*/ 
+/* code die wel werkt, maar niet hoe ik het wil
 .sound4 iframe {
 	padding: 2em;
 	background: repeating-linear-gradient(
@@ -248,6 +241,40 @@ Bron code: https://codepen.io/pigparlor/pen/wvMBPvO*/
 	);
 
 }
+*/
+
+.sound4 iframe {
+	animation-name: warning;
+	animation-duration: 2s;
+
+}
+@keyframes warning {
+	0% {
+		background: black;
+		padding: 2em;
+	}
+	50% {
+		background: repeating-linear-gradient(-45deg,#FFDE17,15px,#FFDE17 15px,#202020 15px,#202020 30px,)
+	}
+	99%{
+		background: repeating-linear-gradient(-45deg,#FFDE17,15px,#FFDE17 15px,#202020 15px,#202020 30px,)
+	}
+
+	100%{
+		background: black;
+	}
+}
+/*
+.sound5 iframe {
+	box-shadow: 10px 10px 50px whitesmoke;
+    transition: box-shadow 1s 1s ;
+}
+*/
+
+/* Code voor yellow warning tape 
+Bron code: https://codepen.io/pigparlor/pen/wvMBPvO*/ 
+
+
 
 
 
