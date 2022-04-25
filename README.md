@@ -77,7 +77,13 @@ Toelichting op gemaakte keuzes
 - Waarom heb je gekozen voor italic/bold/ 20px voor bij voice1?
 - Waarom wordt de background red op precies 13 seconden. 
 
-- Vanaf 9 seconden hoor je een alarm geluid. Het deed mij heel erg denken aan een rood alarm zwaailicht, daarom heb gekozen voor een rode achtergrondkleur
+- Vanaf 9 seconden hoor je een alarm geluid. Het deed mij heel erg denken aan een rood alarm zwaailicht, daarom heb gekozen voor een rode gradient achtergrondkleur
 
 
 
+
+## Bronnen
+
+Shake animatie: https://www.w3schools.com/howto/howto_css_shake_image.asp 
+
+Yellow Warning tape: https://codepen.io/pigparlor/pen/wvMBPvO 

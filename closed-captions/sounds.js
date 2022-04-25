@@ -16,3 +16,4 @@ sounds = [
 ];
 
 // Als je een nieuwe sound toevoegd opletten dat de volgorde veranderd dus sound 1 wordt misschien sound 2, pas dit ook aan in de css
+//
