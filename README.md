@@ -87,3 +87,5 @@ Toelichting op gemaakte keuzes
 Shake animatie: https://www.w3schools.com/howto/howto_css_shake_image.asp 
 
 Yellow Warning tape: https://codepen.io/pigparlor/pen/wvMBPvO 
+
+https://stripesgenerator.com/ 
