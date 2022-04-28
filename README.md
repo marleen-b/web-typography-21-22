@@ -75,3 +75,8 @@ Shake animatie: https://www.w3schools.com/howto/howto_css_shake_image.asp
 Yellow Warning tape: https://codepen.io/pigparlor/pen/wvMBPvO & https://stripesgenerator.com/ 
 
 
+Voor noise effect 
+Ik had ook wel gekeken naar andere methodes, maar deze begreep ik niet of was iets te ingewikkeld
+
+https://css-tricks.com/grainy-gradients/
+https://www.youtube.com/watch?v=z1ES-oz4SbM 
