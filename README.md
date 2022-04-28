@@ -40,7 +40,7 @@ Deze voice klinkt erg eentonig, vaak weinig emotie. Klinkt wel als een menselijk
 Maar de stem klinkt diep en eentonig ook door de vele herhalingen van zinnen. 
 
 ### Voice 3:
-Het is maar één zin: "Fuckoff Skinjob". De stem schreeuwt niet de zin alsof iedereen het kan horen. Het klinkt als of degene van zich afbijt.
+Het is maar één zin: "Fuckoff Skinjob". De stem schreeuwt niet de tekst alsof iedereen het kan horen. Het klinkt als of degene van zich afbijt.
 Bijna binnenmonds iemand van zich afbijten klinkt diep maar wel heel vlot gesproken. 
 
 ### "Cells"
@@ -51,28 +51,10 @@ De eerste keer dat cells gezegd wordt het heel snel gezegd(> letter-spacing -2px
 In de tweede scene worden er naar mijn mening andere stemmem gebruikt.Zo wordt voice 2 komt wel weer terug maar de andere stem klinkt heel anders. Daarom heb ik ervoor gekozen om dit voice5 te noemen.
 
 
-## De captions
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-## Tijdens het afspelen
-
-Tijdens het afspelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
 
 
-## CSS styling keuzes
 
-Toelichting op gemaakte keuzes
+## Toelichting op de gemaakte visuele elementen in CSS.
 
 - Waarom heb je gekozen voor italic/bold/ 20px voor bij voice1?
 - Waarom wordt de background red op precies 13 seconden. 
@@ -80,12 +62,16 @@ Toelichting op gemaakte keuzes
 - Vanaf 9 seconden hoor je een alarm geluid. Het deed mij heel erg denken aan een rood alarm zwaailicht, daarom heb gekozen voor een rode gradient achtergrondkleur
 
 
+- Plotseling compleet witte achtergrond om de stilte te benadrukken. In games zoals Call of Duty wordt het scherm helemaal wit door de knal van een flashbang. De speler wordt hierdoor 'verblind' door de knal. In dit geval wordt de kijker 'verblind' door de knal van stilte. 
+Op dit moment heb ik ook een clip-path gebruikt, omdat de zwarte balken van de video op dit moment heel erg storend waren. Door de zwarte balken weg te halen ontstaat er meer balans in de plotselinge stilte die je wilt visualiseren.
+
+- Het schudden van de videoframe. Het komt voor mij toch echt binnen als ooeh nu gaat er wat spannends gebeuren nu moet je goed opletten als kijker. Om de aandacht te trekken koos ik voor een shake animatie. Ik hoorde ook een beetje wat trillends terug ik het geluid soort bzzzz opstijgend geluid.
 
 
 ## Bronnen
 
 Shake animatie: https://www.w3schools.com/howto/howto_css_shake_image.asp 
 
-Yellow Warning tape: https://codepen.io/pigparlor/pen/wvMBPvO 
+Yellow Warning tape: https://codepen.io/pigparlor/pen/wvMBPvO & https://stripesgenerator.com/ 
 
-https://stripesgenerator.com/ 
+

@@ -38,14 +38,11 @@ iframe {
 	grid-column-start: 2;
 	grid-row-start: 2;
 }
-	/*clip-path: inset(4.8em 0)*/
-	/*clip-path: inset(76px 0px 71px 0px); om de zwarte balken in de video weg te halen alleen zie je dan de effecten niet */
-
 	/* stylen van tekst */
 .voice1 {
 	font-style: italic;
 	font-weight: bold;
-	color: violet;
+	color: darkblue;
 	font-size: 20px;
 	letter-spacing: -1px;
 }
@@ -77,6 +74,7 @@ iframe {
 .voice5 {
 	color:green ;
 	font-weight: 900;
+	letter-spacing: 0.2em;
 }
 
 /* stylen van woorden en/of paragrafen */
@@ -208,9 +206,11 @@ animation: shake 1s;
 	75% { transform: translate(3px, 2px) rotate(0deg); }
 	80% { transform: translate(1px, -1px) rotate(1deg); }
 	85% { transform: translate(-1px, 2px) rotate(-1deg); }
-	90% { transform: translate(-3px, 1px) rotate(0deg); }
+	90% { transform: translate(-3px, 1px) rotate(0deg);
+	margin-bottom: 50px; }
 	95% { transform: translate(3px, 1px) rotate(-1deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg);
+	margin-bottom:0px ; }
   }
 /* The moment the class .sound1 is added to the body, the background turned  red gradient */
 .sound1{
@@ -291,4 +291,31 @@ Bron code: https://codepen.io/pigparlor/pen/wvMBPvO*/
 	  background-size: 200.00px 200.00px;
 	}
   }
+  .sound9 {
+	/* border: 30px inset red */
+	border: 1em solid #fff;
+	box-shadow: 0 0 1em #fff,
+	0 0 .2rem #fff,
+	0 0 2rem #bc13fe,
+	0 0 0.8rem #bc13fe,
+	0 0 2.8rem #bc13fe,
+	inset 0 0 1.3rem #bc13fe; 
+}
 
+  .sound10{
+	  background-color: white;
+	  animation-duration: 1s 1s;
+  }
+  .sound10 body{
+	animation-name: backgroundColor;
+	animation-duration: 1s;
+	animation-delay: 1s;
+}
+
+
+/*om de zwarte balken in de video weg te halen alleen zie je dan de effecten niet
+.sound10 iframe{ 
+	clip-path: inset(4.8em 0);
+	clip-path: inset(76px 0px 71px 0px); 
+}
+*/

@@ -9,9 +9,9 @@ sounds = [
 	24, //sound 5 = 0.24 begin pieptoon
 	25.8, //sound 6 = 0:25 warning sound herhaling
 	31, //sound 7 = warning sound
-	32, //sound 8
+	32, //sound 8= 0:32 
 	34, //sound 9 = 0:34 pieptoon klinkt harder
-	75, //sound 10
+	75, //sound 10 = 1:15
 	86 //sound 11 = 1:26 soort van soundwaves
 ];
 
