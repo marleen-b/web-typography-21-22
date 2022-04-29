@@ -73,6 +73,8 @@ Op dit moment heb ik ook een clip-path gebruikt, omdat de zwarte balken van de v
 
 - Het schudden van de videoframe. Het komt voor mij toch echt binnen als ooeh nu gaat er wat spannends gebeuren nu moet je goed opletten als kijker. Om de aandacht te trekken koos ik voor een shake animatie. Ik hoorde ook een beetje wat trillends terug ik het geluid soort bzzzz opstijgend geluid.
 
+Mijn idee voor de irritante piep was om een noise effect toe te voegen aan de achtergrond zoals in dit voorbeeld: 
+https://www.youtube.com/watch?v=niEsB80l754 
 
 - Voor het kiezen van de kleuren van de captions heb ik gelet op de tone of voice. 
 
