@@ -56,6 +56,12 @@ In de tweede scene worden er naar mijn mening andere stemmem gebruikt.Zo wordt v
 
 ## Toelichting op de gemaakte visuele elementen in CSS.
 
+0:00 - 
+0:09 - alarm geluid
+0:12 - 2e alarm geluid:
+
+
+
 - Waarom heb je gekozen voor italic/bold/ 20px voor bij voice1?
 - Waarom wordt de background red op precies 13 seconden. 
 
@@ -68,7 +74,13 @@ Op dit moment heb ik ook een clip-path gebruikt, omdat de zwarte balken van de v
 - Het schudden van de videoframe. Het komt voor mij toch echt binnen als ooeh nu gaat er wat spannends gebeuren nu moet je goed opletten als kijker. Om de aandacht te trekken koos ik voor een shake animatie. Ik hoorde ook een beetje wat trillends terug ik het geluid soort bzzzz opstijgend geluid.
 
 
+- Voor het kiezen van de kleuren van de captions heb ik gelet op de tone of voice. 
+
+https://londonimageinstitute.com/how-to-empower-yourself-with-color-psychology/
+
+https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112
 ## Bronnen
+Hieronder heb ik de bronnen genoteerd die ik geraadpleegd heb om een aantal elementen te maken in CSS.
 
 Shake animatie: https://www.w3schools.com/howto/howto_css_shake_image.asp 
 
@@ -80,3 +92,8 @@ Ik had ook wel gekeken naar andere methodes, maar deze begreep ik niet of was ie
 
 https://css-tricks.com/grainy-gradients/
 https://www.youtube.com/watch?v=z1ES-oz4SbM 
+
+Voor het kiezen van de kleuren op basis van emotie:
+https://londonimageinstitute.com/how-to-empower-yourself-with-color-psychology/
+
+https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112 

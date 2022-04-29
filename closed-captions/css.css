@@ -38,48 +38,48 @@ iframe {
 	grid-column-start: 2;
 	grid-row-start: 2;
 }
-	/* stylen van tekst */
+
+/* stylen van tekst */
 .voice1 {
-	font-style: italic;
-	font-weight: bold;
-	color: darkblue;
+	color: #000000;
+	font-weight:bold;
 	font-size: 20px;
 	letter-spacing: -1px;
+	background-color:#222222 ;
+	padding: 1px 1px;
 }
 
 .voice2 {
-	font-weight: 400;
-	color: white;
-	font-size: 20px;
-	font-style: normal;
-	text-transform: lowercase;
+	color: #5C5C5C ;
+	font-weight:normal ;
+	font-size: 18px;
 	letter-spacing: 1px;
+	text-transform: lowercase;
 }
 .voice3 {
-	color: red;
+	color: #b30000 ;
+	font-weight: bold;
 	font-size: 16px;
 	font-style: italic;
-	font-weight: 900;
-	text-transform: uppercase;
 	letter-spacing: -2px;
-	background-color: white;
-	padding: 10px 10px 
-
+	text-transform: uppercase;
+	text-decoration: underline;
 }
 
 .voice4 {
-	font-weight: 200;
-	color: aqua;
-	font-size: 20px;
+	color:#6b6b00;
+	font-weight:normal ;
+	font-size: 18px;
 }
 
 .voice5 {
-	color:green ;
-	font-weight: 900;
-	letter-spacing: 0.2em;
+	color:#336699 ;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 0.1em;
 }
 
-/* stylen van woorden en/of paragrafen */
+/* stylen van paragrafen en woorden */
 
 /* p0 ; "Officer KD6-3.7 Let's begin. Ready?" */
 .p0 span {
@@ -183,10 +183,6 @@ iframe {
 }
 
 /* SOUNDS  */
-
-/*Start shake the video frame and make the animation last for 2s*/
-/* Code voor shake iframe
-Bron code: https://www.w3schools.com/howto/howto_css_shake_image.asp*/ 
 .sound0 iframe{
 animation: shake 1s;
 }
@@ -214,7 +210,7 @@ animation: shake 1s;
 	100% { transform: translate(1px, -2px) rotate(-1deg);
 	margin-bottom:0px ; }
   }
-/* The moment the class .sound1 is added to the body, the background turned  red gradient */
+
 .sound1{
 	animation-name: alarm;
 	animation-duration: 1s;
@@ -249,6 +245,24 @@ animation: shake 1s;
 		background: linear-gradient(90deg, rgba(4,0,133,1) 0%, rgba(0,0,0,1) 35%, rgba(196,0,2,1) 80%, rgba(0,0,10,1) 100%);
 	}
 }
+
+.sound3{
+	animation-name: buzzer;
+	animation-duration: 1s;
+}
+@keyframes buzzer {
+	0% {
+		box-shadow: none
+	}
+	80%{
+		box-shadow: 20px 20px 50px 10px rgba(139, 0, 0, 0.75) inset;
+	}
+	99%{
+		box-shadow: 20px 20px 50px 10px rgb(139, 0, 0,) inset;
+	}
+	100%{
+		box-shadow: none;
+	}
 
 .sound4{
 	animation-name: warning;
@@ -295,9 +309,9 @@ Bron code: https://codepen.io/pigparlor/pen/wvMBPvO*/
   }
   .sound9 {
 	/* border: 30px inset red */
-	border: 4px solid #fff;
-	box-shadow: 0 0 8px #fff,
-	0 0 .2rem #fff,
+	border: 4px solid #000;
+	box-shadow: 0 0 8px #000,
+	0 0 .2rem #000,
 	0 0 2rem #bc13fe,
 	0 0 0.8rem #bc13fe,
 	0 0 2.8rem #bc13fe,
@@ -308,7 +322,7 @@ Bron code: https://codepen.io/pigparlor/pen/wvMBPvO*/
 	  background-color: white;
 	  animation-duration: 1s 1s;
   }
-  .sound10 body{
+  .sound10{
 	animation-name: backgroundColor;
 	animation-duration: 1s;
 	animation-delay: 1s;
