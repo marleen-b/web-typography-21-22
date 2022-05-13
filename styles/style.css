@@ -1,0 +1,297 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+html, body {
+  height:100%;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:not([disabled]) {
+  cursor:pointer;
+}
+
+/* jouw CSS vanaf hier */
+
+/**********************/
+/* CUSTOM PROPERTIES */
+/**********************/
+:root {
+  --rainbow-gradient:	repeating-radial-gradient(
+    circle at center bottom,
+    #ccc 0em .8em,
+    #eee,
+    #ccc 1.2em 1.3em,
+    #aaa,
+    #ccc 1.7em 2.5em
+  );
+
+	
+ }
+ @media (prefers-color-scheme:dark) {
+	:root {
+  --kleur-achtergrond:#333;	
+	--kleur-button: #fff;
+	--kleur-merk: dodgerblue;
+	
+	--verloop-achtergrond:
+		repeating-radial-gradient(
+			circle at center bottom,
+			#333 0em .8em,
+			#444,
+			#333 1.2em 1.3em,
+			#222,
+			#333 1.7em 2.5em
+		);
+	}
+}
+
+/**********************/
+/* ALGEMENE STIJLING; BODY*/
+/**********************/
+body {
+  background: linear-gradient(
+    to right, 
+    rgb(255,168,241),
+    rgb(130,107,231),
+    rgb(140,255,180),
+    rgb(250,255,173),
+    rgb(251,175,153),
+    rgb(221, 83, 65)
+      );
+}
+/* optionele andere kleuren
+rgba(227,47,250,1),
+rgba(0,70,255,1),
+rgba(90,205,50,1),
+rgba(254,255,0,1),
+rgba(255,170,0,1),
+rgba(255,46,0,1)
+*/
+
+h1, p {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  margin: .5em;
+}
+
+
+
+
+/**********************/
+/* HEADER */
+/**********************/
+header{ /*Hulp van Sanne */
+  display:grid; /*Centreren van button */
+  place-items: center; 
+  }
+
+header button{ 
+  color: white;
+  background-color: rgb(243,29,1);
+  padding: 1em 3em ;
+  border-style: none;
+  border-radius: .5em;
+  }
+header button:hover{
+  background-color: rgb(255, 54, 27);
+  }
+header span img{ /* Logo van Mario Kart */
+  height: 8em;
+}
+
+
+
+/**********************/
+/* FOOTER */
+/**********************/
+.finishline { /* Code voor finishlijn */
+  height: 3em;
+  background-image:repeating-conic-gradient( /*Bron: hulp van Sanne */
+  rgb(0 0 0 /0) 0% 25%,
+  black 25% 50% );
+  background-size: 1.25em 1.25em;
+  border: .1em solid black;
+}
+
+
+
+
+/**********************/
+/* MAIN */
+/**********************/
+main{
+  padding: 3em 3em 0 3em ;
+} 
+
+
+
+
+/**********************/
+/* ARTICLE 1; CLOUDGUY */
+/**********************/
+main article:nth-of-type(1) img{ /*Styling countdown met cloud guy */
+  height: 18em;
+  position: relative;
+  left: 50vw;
+  z-index: 100;
+}
+.cloudGuyWegVliegen{
+  animation-name: wegVliegen;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes wegVliegen {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-60em);
+  }
+
+}
+
+
+
+/**********************/
+/* ARTICLE 2; VERKEERSLICHT */
+/**********************/
+/* Verkeerslicht bron: https://codesandbox.io/s/6h6jg?file=/index.html */
+.verkeerslicht { /*verkeerslicht ovaal */
+  background-color: black;
+  width: 70px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-radius: 10px;
+  position: relative;
+  left: 49vw;
+  bottom: 3em;
+}
+
+.verkeerslichtWeg{
+  animation-name: verkeerslichtWeg;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes verkeerslichtWeg {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-60em);
+  }
+}
+.verkeerslicht span { /* Verkeerslichten */
+  width: 45px;
+  height: 45px;
+  padding: 10px 10px;
+  border-radius: 100%;
+  background-color: gray;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.verkeerslichtAan span:nth-of-type(1){
+  animation-name: redBoven;
+}
+.verkeerslichtAan span:nth-of-type(2){
+  animation-name: redMidden;
+}
+.verkeerslichtAan span:nth-of-type(3){
+  animation-name: redOnder;
+  
+}
+
+@keyframes redBoven {
+  0%,
+  33% {
+    background-color: rgb(219,43,91);
+  }
+  34%,
+  75% {
+    background-color: rgb(219,43,91);
+  }
+  85%,
+  100% {
+    background-color: rgb(38,163,252);
+    
+  }
+}
+
+@keyframes redMidden {
+  0%,
+  33% {
+    background-color: gray;
+  }
+  34%,
+  66% {
+    background-color: rgb(219,43,91);
+  }
+  67%,
+  75% {
+    background-color: rgb(219,43,91);
+  }
+  85%,
+  100% {
+    background-color: rgb(38,163,252);
+  }
+}
+
+@keyframes redOnder {
+  0%,
+  66% {
+    background-color: gray;
+  }
+  67%,
+  75% {
+    background-color: rgb(219,43,91);
+  }
+  85%,
+  100%{
+    background-color: rgb(38,163,252);
+  }
+}
+
+
+
+
+/**********************/
+/* ARTICLE 3; TIJDLIJN */
+/**********************/
+/* Styling mushroom button */
+ol{ 
+  display: flex; /* Hulp van Sanne */
+  justify-content: space-between;
+  margin: 0;
+  list-style: none;
+}
+ol li{ /*Hulp van Sanne */
+  display: grid;
+  justify-items: center;
+  /* margin: 0; Zodra ik de tekst weghaal de margin gebruiken */
+}
+
+li button{
+  font-size: 1.5em;
+  background-color: transparent;
+  border: none;
+}
+
+li button img{
+  max-width: 2em;
+}
+
+
+

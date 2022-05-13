@@ -1,112 +1,192 @@
-# Web Typography, 2020/2021, opdrachtomschrijving
+# Procesverslag
+Markdown is een simpele manier om HTML te schrijven.  
+Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
-
-Dat kan visueel sterker. 
-
-En dat gaan jullie doen.
-
-## Typografische restricties; mijn keuze.
-
-Voor de opdracht moest ik één van de twee opties kiezen en onderbouwen. Voor de typografische restricties had ik de keuze uit systeemfont of Brenner.
+Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
 
-### Optie 1; Systeemfont plus- en minpunten:
--   Het systeem bepaald het font.
--	Geen controle over welk lettertype er precies gebruikt wordt.
--	Alleen normal, bold en italic zijn er mogelijk als font-weight opties
--	Meer uitdaging in het gebruik font-size, text-decoration, color, letter-spacing, word-spacing, text-shadow en animatie. 
 
-### Optie 2; Brenner plus-en minpunten:
--	Keuzestress over welke lettertype en variant je gaat gebruiken en voor welke voice of sound. 
--	De vele lettertypen kunnen de toon of voice beter overbrengen. 
--	Meer mogelijkheden dan met systeemfonts. 
--   Een uitgebreid keus uit een font familie. Zoals sans-serif, serif, bold, display en script.
+## Jij
 
-Ik ben uiteindelijk gegaan voor het systeemfont. Ik kan namelijk soms moeilijk de knoop doorhaken, waardoor het heel lastig zou worden om een keuze te maken tussen alle font mogelijkheden. Het systeemfont daagt mij ook meer uit om te kijken naar andere visuele mogelijkheden door CSS.
+### Ontwerper:
+Marleen Buchner
 
+#### Mijn startniveau:
+Mijn startniveau is: blauw
 
-## Tone of voice
-De opdracht draait om het geluid visueel weer te geven dus hoe geef je de pieptoon, alarm en de stemmen visueel weer.
-Wat we horen moet je vormgeven en niet wat je ziet.
+# Je plan
 
-In de html zijn de captions verdeeld in classes zoals voice1 en voice2. Elk stukje tekst wordt door een bepaalde voice/stem gezegd.  
-Wat mij opviel is dat de classes voor de tweede scene(is vanaf 1:27 in de video) nog ontbraken. Als je goed luister merk je dat elke voice zijn eigen unieke eigenschappen heeft. Hieronder heb ik dit kort op een rijtje gezet. Ook een aantal andere zaken die mij opvielen staan hieronder beschreven.
+<details open>
+  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
-Voor het kiezen van de kleuren heb ik gebruik gemaakt van de volgende twee bronnen: 
-https://londonimageinstitute.com/how-to-empower-yourself-with-color-psychology/
-https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112
+  ### De eerste versie/schets:
+  <img src="readme-images/schetsconcept1.png" width="500px" alt="eerste concept/schets">
+  <img src="readme-images/schetsconcept2.png" width="500px" alt="tweede concept/schets">
+  <img src="readme-images/schetsenideetjes.png" width="500px" alt="schetsen van losse ideeën">
 
-### Voice 1:
-De stem klinkt soms erg bazig door de snelle maar duidelijke uitspraak. Je moet luisteren wat ik te zeggen heb. Daarom heb ik ervoor gekozen om voice1 een groter font-size te geven dan voice2. Ik heb gekozen voor zwarte bold captions met een donkergrijze achtergrond. De kleur zwart wordt geassocieerd als 'Powerful'. Ik vond deze stem krachtig klinken dus vond ik bold tekst in de kleur zwart een goed idee. Om de tekst toch leesbaar te houden met de body achtergrondkleur heeft de tekst een donkergrijze kleur gekregen. 
+  Mario Kart is een klassieker die bijna iedereen wel kent. En welke course komt in elke Mario Kart game terug? Jazeker, Rainbow Road. Wat ook één van mijn favoriete Mario Kart baan is.
+  Voor sommigen spelers een course vol trauma's, omdat je regelmatig van de baan vliegt en voor andere weer niet. 
+  Ik heb er dus voor gekozen om een tijdlijn te maken van Rainbow Road. 
 
-### Voice 2: 
-Deze voice klinkt erg eentonig, vaak weinig emotie. Klinkt wel als een menselijke stem en niet robotachtig. 
-Maar de stem klinkt diep en eentonig ook door de vele herhalingen van zinnen. Daarom heb ik de captions van voice2 de kleur grijs gegeven. Grijs wordt namelijk als neutrale kleur gezien. En vaak vinden we eentonige stemmen heel saai en de kleur grijs is ook wel een beetje saai. 
+  Het idee is om Mario te laten 'racen' door de versies van Rainbow Road heen. Bij elke mushroom veranderd Mario naar een andere game versie van Mario Kart. Ook zie je de achtergrond veranderen naar de Rainbow Road course uit dezelfde game. 
 
-### Voice 3:
-Het is maar één zin: "Fuckoff Skinjob". De stem schreeuwt niet de tekst alsof iedereen het kan horen. Het klinkt als of degene van zich afbijt.
-Bijna binnenmonds iemand van zich afbijten klinkt diep maar wel heel vlot gesproken. Op o.a. social media lezen we capital letters als schreeuwen. Doordat de tekst niet hardop wordt uitgeschreeuwd, maar wel heel erg gemeen klinkt heb ik ervoor gekozen om de tekst wel een capital letters te maken, maar met een kleiner font
+  De mushroom is eigenlijk een soort van Easter egg verwijzing naar de Super Mario Bros game. Als Mario in het spel een mushroom pakte wordt hij groter. Het idee is dan op een leuke manier de upgrade te laten zien van Mario in Mario Kart en natuurlijk Rainbow Road zelf. 
 
-### "Cells"
-Ongeveer vanaf 34 seconden in de video hoor je een aantal keer "cells". Wat mij opvalt is dat dit woord een aantal keer herhaald wordt.
-De eerste keer dat cells gezegd wordt het heel snel gezegd(> letter-spacing -2px). Daarna hoor je het voor de 2e keer. Wat een herhaling is van de eerste keer maar het klinkt een stukje langzamer.(> letter-spacing 5px) 
-
-### Voice 4:
-De vierde stem is heel kort te horen. De stem klinkt neutral maar beslist. Ik wilde voor elke voice minstens een andere kleur gebruiken, zodat er makkelijk onderscheid te maken is wie wat zegt. Omdat groen ook wel als stabiele kleur wordt gezien heb ik gekozen voor een donkere tint groen. Zo is de tekst stabiel, maar toch hard en beslissend als de zwarte kleur. 
-
-### Voice 5: 
-In de tweede scene worden er naar mijn mening andere stemmem gebruikt.Zo wordt voice 2 komt wel weer terug maar de andere stem klinkt heel anders. Daarom heb ik ervoor gekozen om dit voice5 te noemen. Ik heb gekozen voor een blauwe kleur en normal font-weight. De stem klinkt namelijk veel kalmer, zachter en vriendelijker dan voice1. Bij voice1 wordt alles heel snel gezegd. De tone of voice van voice5 is het tegenovergestelde van voice1. De captions hebben een blauwe kleur gekregen, omdat de kleur blauw staat voor vertrouwen. 
+  Het lijkt er op dat Mario de finish gaat bereiken, maar danvliegt er een Blue shell het scherm binnen. Waarna de kijker weer terug wordt gegooid naar het begin van de tijdlijn.  
 
 
-## Toelichting op de gemaakte visuele elementen in CSS.
 
-0:00 - 
-    Het schudden van de videoframe. Het komt voor mij toch echt binnen als ooeh nu gaat er wat spannends gebeuren nu moet je goed opletten als kijker. Om de aandacht te trekken koos ik voor een shake animatie. Ik hoorde ook een beetje wat trillends terug ik het geluid soort bzzzz opstijgend geluid.
-    
-0:09 - alarm geluid
-    Vanaf 9 seconden hoor je een alarm geluid. Het deed mij heel erg denken aan een rood alarm zwaailicht, daarom heb gekozen voor een rode gradient achtergrondkleur
+  
 
-0:12 - 2e alarm geluid:
-    Vanaf 12 seconden hoor je nog een alarm geluid. Alleen klinkt dit alarm anders dan de eerste. Het deed mij niet denken aan een zwaailicht, maar aan een soort van sirene. 
 
-0:15 - buzzer
-    Dit geluid klonk voor mij als bzzzzzzzzz. Het deed het mij een beetje denken aan het trillen van je telefoon, maar dan gedempter. Omdat het kort te horen is wilde ik het gebruiken als een overgang naar de warningstripes. Of te wel de waarschuwingsstrepen. 
-    De geluiden van 0:15 lopen natuurlijk ook kort in elkaar over. 
 
-0:16 - warningstripes
-    Toen ik dit geluid voor het eerst hoorde deed het mij heel erg denken aan een warning alarm. Je mist alleen nog een stem die zegt:"warning, warning". Omdat we natuurlijk als vanaf 9 seconden een zwaailicht hadden gebruikt zat ik te denken wat doet mij nog meer denken aan waarschuwing. Een toen kwam ik op zwarte en gele of zwart orangje waarschuwingstrepen. Ik koos uiteindelijk voor de zwartorangje strepen, omdat de kleur geel net iets te fel was. 
 
-0:24 - buzzer herhalign
-    Mijn idee voor de irritante piep was om een noise effect toe te voegen aan de achtergrond zoals in dit voorbeeld: 
-    Ik had ook wel gekeken naar andere methodes, maar deze begreep ik niet of was iets te ingewikkeld
-https://www.youtube.com/watch?v=niEsB80l754  
+  ### Mijn ambitie: 
+  Aan deze technieken/punten wil ik werken:
+  - Het vak halen ;)
+  - Een voldoende halen
+  - Wat meerdere elementen met animaties en Javascript.
+ 
+</details>
 
-1:15 - pieptoon stopt, knal van stilte
-    Plotseling compleet witte achtergrond om de stilte te benadrukken. In games zoals Call of Duty wordt het scherm helemaal wit door de knal van een flashbang. De speler wordt hierdoor 'verblind' door de knal. In dit geval wordt de kijker 'verblind' door de knal van stilte. 
-Op dit moment heb ik ook een clip-path gebruikt, omdat de zwarte balken van de video op dit moment heel erg storend waren. Door de zwarte balken weg te halen ontstaat er meer balans in de plotselinge stilte die je wilt visualiseren.
 
-1:26 - mysterieuze soundwaves
-    Het achtergrondgeluid vanaf 1:26 klonk voor mij heel erg mysterieus. Ik kreeg het gevoel dat er iets stond te gebeuren, maar wat dat weet je niet. Volgens de kleuren psychologie wordt staat de kleur paars voor mysterieus. Daarom leek het mij logisch om de kleur paars te gaan gebruiken. Ik wilde een soort van waves maken die zachtjes meebewegen met het geluid. Hoe groter hoe harder het geluid. En op het einde net zoals bij de irritante piep plotseling niks, niks van stilte. 
 
-## Bronnen
-Hieronder heb ik de bronnen genoteerd die ik geraadpleegd heb om een aantal elementen te maken in CSS.
 
-Waarschuwingsstrepen
-https://codepen.io/pigparlor/pen/wvMBPvO & https://stripesgenerator.com/ 
+## Voortgang/Feedback 1
 
-Shaking video frame
- https://www.w3schools.com/howto/howto_css_shake_image.asp
+<details>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
-Noise effect
-https://www.youtube.com/watch?v=niEsB80l754 
+  ### Bevinding 1:
+  Een keuze maken tussen de verschillende concepten Ik heb eigenlijk twee concepten met daarom heen allemaal losse ideeën.
 
-Ik had ook wel gekeken naar andere methodes, maar deze begreep ik niet of was iets te ingewikkeld
-https://css-tricks.com/grainy-gradients/
-https://www.youtube.com/watch?v=z1ES-oz4SbM 
+  #### oplossing:
+  Tijdens het uitleggen van mijn concepten aan medestudenten werd ik enthousiaster over het tweede concept. Ik heb dus de keuze gemaakt om het tweede concept verder uit te werken. We kwamen tot de conclusie dat het eerste concept een beetje statisch is, waardoor het ook minder leuk is om te maken. 
 
-Kleuren psychologie
-https://londonimageinstitute.com/how-to-empower-yourself-with-color-psychology/
-https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112
+
+  ### Bevinding 2:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+
+
+
+  ### Bevinding 3:
+  ...
+
+</details>
+
+
+
+
+## Voortgang/Feedback 2
+
+<details>
+  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  
+  ### Bevinding 1:
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+
+
+
+  ### Bevinding 2:
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+
+
+
+  ### Bevinding 3:
+  ...
+
+</details>
+
+
+
+## Voortgang/Feedback 3
+
+<details>
+  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  
+  ### Bevinding 1:
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+
+
+
+  ### Bevinding 2:
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+
+
+
+  ### Bevinding 3:
+  ...
+
+</details>
+
+
+
+
+## Reflectie
+
+<details>
+  <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
+
+  ### Je uitkomst - karakteristiek screenshot(s):
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+
+
+  ### Dit ging goed/Heb ik geleerd: 
+  Korte omschrijving met plaatje(s)
+  - Javascript code schrijven voor het maken van een interactie. Voor mij is Javascript heel lastig en deze code lukte mij helemaal zelf naar de les over JS. 
+
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
+
+  ### Dit was lastig/Is niet gelukt:
+  Korte omschrijving met plaatje(s)
+  Het idee was om voor de countdown niet alleen het stoplicht te gebruiken, maar net zoals in de game de aftelling zien in cijfers. bron die ik hiervoor wilde gebruiken: https://codepen.io/raulsuescun/pen/dwLWyw
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+</details>
+
+
+
+
+
+## Bronnenlijst
+
+<details open>
+
+1. https://www.deviantart.com/betatus/art/Mario-Kart-ICON-412302604 - afbeelding als fav icon
+2. https://static.wikia.nocookie.net/mariokart/images/2/20/Fishin'_Lakitu_(Mario_Kart_7).png/revision/latest/scale-to-width-down/1000?cb=20131229194833 - Afbeelding van Latiku voor de countdown. De afbeelding wel aangepast in Photoshop, omdat ik het verkeerslicht met CSS wilde maken.
+3. https://css-tricks.com/css3-gradients/ - Om een Regenboog gradient te maken voor de achtergrond.
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient - CSS code om een schaakbord pattern te maken voor de finishlijn.
+5. https://mariokart.fandom.com/wiki/Spiny_Shell  - Afbeelding van Blue Shell
+6. https://www.youtube.com/watch?v=-jqqHOF89b8 - Content resource voor de tijdlijn
+7. https://mariokart.fandom.com/wiki/Mushroom_(item) - Afbeelding van rode mushroom
+8. https://codesandbox.io/s/6h6jg?file=/index.html - CSS code voor het maken en animeren van het verkeerslicht. 
+9. https://commons.wikimedia.org/wiki/File:Super-Mario-Kart-Logo.png - Logo van Super Mario Kart 1992
+10. https://www.mariowiki.com/Gallery:Mario_Kart:_Super_Circuit - Logo van Mario Kart Super Circuit 2001
+11. https://www.deviantart.com/ringostarr39/art/Mario-Kart-DS-logo-738743863 - Logo van Mario Kart DS 2005
+12. https://commons.wikimedia.org/wiki/File:Mariokartwiilogo.png - Logo van Mario Kart Wii 2008
+13. https://logos.fandom.com/wiki/Mario_Kart_7 - Logo van Mario Kart 7 2011
+14. https://logos.fandom.com/wiki/Mario_Kart_8_Deluxe - Logo van Mario Kart 8 Deluxe 2017
+15. https://4.bp.blogspot.com/-K2FuO2FjJHk/UwEyZTWL7BI/AAAAAAAAApg/dEf-azZKXcM/s1600/SMK4.png - Rainbow Road 1992
+16. https://www.youtube.com/watch?v=hlFq97q9H48 - Rainbow Road 2001 
+17. https://www.sporcle.com/games/Bowserdude/mario-kart-rainbow-road-medley - Rainbow Road 2005 V2
+18. https://saveupdata.com/news/every-version-of-mario-karts-rainbow-road-ranked/ - Rainbow Road 2005
+19. https://www.wallpaperup.com/318535/screenshots_Mario_Kart_rainbow_road.html - Rainbow Road Wii 2008
+20. https://mariokart.fandom.com/wiki/Rainbow_Road_(N64) - Rainbow Road 2017 
+
